@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ex fuga error explicabo repellat aperiam iusto laborum, molestias nihil! Numquam aliquid voluptatibus quasi nobis accusamus! Hic nesciunt consequatur debitis molestias.</p>
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira pagina</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ex fuga error explicabo repellat aperiam iusto laborum, molestias nihil! Numquam aliquid voluptatibus quasi nobis accusamus! Hic nesciunt consequatur debitis molestias.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1> <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem tempora molestias a ipsa, accusantium corrupti inventore sunt veniam. Explicabo alias at tenetur a magnam accusamus omnis commodi incidunt optio placeat.</p> <img src='imagens/pinguin.png'>" frameborder="1" id="tela" name="frame">Infelizmente seu navegador não é compátivel com isso.</iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis eaque, laudantium quidem in odio, aliquam tenetur nisi a molestias delectus vero deleniti eligendi quis ut laborum enim esse ipsam voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe autem accusantium quia nemo velit porro repellat exercitationem, ipsa culpa harum commodi maiores voluptates ab voluptas recusandae laudantium odit quam consequatur.</p>
+    
+</body>
+</html>
